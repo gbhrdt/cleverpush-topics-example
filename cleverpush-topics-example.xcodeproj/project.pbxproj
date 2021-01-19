@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E555EE25B78B8300A9C135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555ED25B78B8300A9C135 /* AppDelegate.m */; };
+		29E555F125B78B8300A9C135 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555F025B78B8300A9C135 /* SceneDelegate.m */; };
+		29E555F425B78B8300A9C135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555F325B78B8300A9C135 /* ViewController.m */; };
+		29E555F725B78B8300A9C135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E555F525B78B8300A9C135 /* Main.storyboard */; };
+		29E555F925B78B8300A9C135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E555F825B78B8300A9C135 /* Assets.xcassets */; };
+		29E555FC25B78B8300A9C135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E555FA25B78B8300A9C135 /* LaunchScreen.storyboard */; };
+		29E555FF25B78B8300A9C135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555FE25B78B8300A9C135 /* main.m */; };
+		29E5560925B78B8400A9C135 /* cleverpush_topics_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5560825B78B8400A9C135 /* cleverpush_topics_exampleTests.m */; };
+		29E5561425B78B8400A9C135 /* cleverpush_topics_exampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5561325B78B8400A9C135 /* cleverpush_topics_exampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E5560525B78B8400A9C135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E555E125B78B8300A9C135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E555E825B78B8300A9C135;
+			remoteInfo = "cleverpush-topics-example";
+		};
+		29E5561025B78B8400A9C135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E555E125B78B8300A9C135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E555E825B78B8300A9C135;
+			remoteInfo = "cleverpush-topics-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29E555E925B78B8300A9C135 /* cleverpush-topics-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cleverpush-topics-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E555EC25B78B8300A9C135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29E555ED25B78B8300A9C135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29E555EF25B78B8300A9C135 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		29E555F025B78B8300A9C135 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		29E555F225B78B8300A9C135 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29E555F325B78B8300A9C135 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29E555F625B78B8300A9C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29E555F825B78B8300A9C135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29E555FB25B78B8300A9C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29E555FD25B78B8300A9C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E555FE25B78B8300A9C135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E5560425B78B8400A9C135 /* cleverpush-topics-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cleverpush-topics-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E5560825B78B8400A9C135 /* cleverpush_topics_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cleverpush_topics_exampleTests.m; sourceTree = "<group>"; };
+		29E5560A25B78B8400A9C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E5560F25B78B8400A9C135 /* cleverpush-topics-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cleverpush-topics-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E5561325B78B8400A9C135 /* cleverpush_topics_exampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cleverpush_topics_exampleUITests.m; sourceTree = "<group>"; };
+		29E5561525B78B8400A9C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E555E625B78B8300A9C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E5560125B78B8400A9C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E5560C25B78B8400A9C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E555E025B78B8300A9C135 = {
+			isa = PBXGroup;
+			children = (
+				29E555EB25B78B8300A9C135 /* cleverpush-topics-example */,
+				29E5560725B78B8400A9C135 /* cleverpush-topics-exampleTests */,
+				29E5561225B78B8400A9C135 /* cleverpush-topics-exampleUITests */,
+				29E555EA25B78B8300A9C135 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E555EA25B78B8300A9C135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E555E925B78B8300A9C135 /* cleverpush-topics-example.app */,
+				29E5560425B78B8400A9C135 /* cleverpush-topics-exampleTests.xctest */,
+				29E5560F25B78B8400A9C135 /* cleverpush-topics-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E555EB25B78B8300A9C135 /* cleverpush-topics-example */ = {
+			isa = PBXGroup;
+			children = (
+				29E555EC25B78B8300A9C135 /* AppDelegate.h */,
+				29E555ED25B78B8300A9C135 /* AppDelegate.m */,
+				29E555EF25B78B8300A9C135 /* SceneDelegate.h */,
+				29E555F025B78B8300A9C135 /* SceneDelegate.m */,
+				29E555F225B78B8300A9C135 /* ViewController.h */,
+				29E555F325B78B8300A9C135 /* ViewController.m */,
+				29E555F525B78B8300A9C135 /* Main.storyboard */,
+				29E555F825B78B8300A9C135 /* Assets.xcassets */,
+				29E555FA25B78B8300A9C135 /* LaunchScreen.storyboard */,
+				29E555FD25B78B8300A9C135 /* Info.plist */,
+				29E555FE25B78B8300A9C135 /* main.m */,
+			);
+			path = "cleverpush-topics-example";
+			sourceTree = "<group>";
+		};
+		29E5560725B78B8400A9C135 /* cleverpush-topics-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				29E5560825B78B8400A9C135 /* cleverpush_topics_exampleTests.m */,
+				29E5560A25B78B8400A9C135 /* Info.plist */,
+			);
+			path = "cleverpush-topics-exampleTests";
+			sourceTree = "<group>";
+		};
+		29E5561225B78B8400A9C135 /* cleverpush-topics-exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29E5561325B78B8400A9C135 /* cleverpush_topics_exampleUITests.m */,
+				29E5561525B78B8400A9C135 /* Info.plist */,
+			);
+			path = "cleverpush-topics-exampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E555E825B78B8300A9C135 /* cleverpush-topics-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E5561825B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-example" */;
+			buildPhases = (
+				29E555E525B78B8300A9C135 /* Sources */,
+				29E555E625B78B8300A9C135 /* Frameworks */,
+				29E555E725B78B8300A9C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cleverpush-topics-example";
+			productName = "cleverpush-topics-example";
+			productReference = 29E555E925B78B8300A9C135 /* cleverpush-topics-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29E5560325B78B8400A9C135 /* cleverpush-topics-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E5561B25B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-exampleTests" */;
+			buildPhases = (
+				29E5560025B78B8400A9C135 /* Sources */,
+				29E5560125B78B8400A9C135 /* Frameworks */,
+				29E5560225B78B8400A9C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E5560625B78B8400A9C135 /* PBXTargetDependency */,
+			);
+			name = "cleverpush-topics-exampleTests";
+			productName = "cleverpush-topics-exampleTests";
+			productReference = 29E5560425B78B8400A9C135 /* cleverpush-topics-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29E5560E25B78B8400A9C135 /* cleverpush-topics-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E5561E25B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-exampleUITests" */;
+			buildPhases = (
+				29E5560B25B78B8400A9C135 /* Sources */,
+				29E5560C25B78B8400A9C135 /* Frameworks */,
+				29E5560D25B78B8400A9C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E5561125B78B8400A9C135 /* PBXTargetDependency */,
+			);
+			name = "cleverpush-topics-exampleUITests";
+			productName = "cleverpush-topics-exampleUITests";
+			productReference = 29E5560F25B78B8400A9C135 /* cleverpush-topics-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E555E125B78B8300A9C135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					29E555E825B78B8300A9C135 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					29E5560325B78B8400A9C135 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 29E555E825B78B8300A9C135;
+					};
+					29E5560E25B78B8400A9C135 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 29E555E825B78B8300A9C135;
+					};
+				};
+			};
+			buildConfigurationList = 29E555E425B78B8300A9C135 /* Build configuration list for PBXProject "cleverpush-topics-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29E555E025B78B8300A9C135;
+			productRefGroup = 29E555EA25B78B8300A9C135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E555E825B78B8300A9C135 /* cleverpush-topics-example */,
+				29E5560325B78B8400A9C135 /* cleverpush-topics-exampleTests */,
+				29E5560E25B78B8400A9C135 /* cleverpush-topics-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E555E725B78B8300A9C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E555FC25B78B8300A9C135 /* LaunchScreen.storyboard in Resources */,
+				29E555F925B78B8300A9C135 /* Assets.xcassets in Resources */,
+				29E555F725B78B8300A9C135 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E5560225B78B8400A9C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E5560D25B78B8400A9C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E555E525B78B8300A9C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E555F425B78B8300A9C135 /* ViewController.m in Sources */,
+				29E555EE25B78B8300A9C135 /* AppDelegate.m in Sources */,
+				29E555FF25B78B8300A9C135 /* main.m in Sources */,
+				29E555F125B78B8300A9C135 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E5560025B78B8400A9C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E5560925B78B8400A9C135 /* cleverpush_topics_exampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E5560B25B78B8400A9C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E5561425B78B8400A9C135 /* cleverpush_topics_exampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29E5560625B78B8400A9C135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E555E825B78B8300A9C135 /* cleverpush-topics-example */;
+			targetProxy = 29E5560525B78B8400A9C135 /* PBXContainerItemProxy */;
+		};
+		29E5561125B78B8400A9C135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E555E825B78B8300A9C135 /* cleverpush-topics-example */;
+			targetProxy = 29E5561025B78B8400A9C135 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29E555F525B78B8300A9C135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E555F625B78B8300A9C135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29E555FA25B78B8300A9C135 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E555FB25B78B8300A9C135 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E5561625B78B8400A9C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29E5561725B78B8400A9C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E5561925B78B8400A9C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWJDGZUQ72;
+				INFOPLIST_FILE = "cleverpush-topics-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverpush.cleverpush-topics-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29E5561A25B78B8400A9C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWJDGZUQ72;
+				INFOPLIST_FILE = "cleverpush-topics-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverpush.cleverpush-topics-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29E5561C25B78B8400A9C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWJDGZUQ72;
+				INFOPLIST_FILE = "cleverpush-topics-exampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverpush.cleverpush-topics-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cleverpush-topics-example.app/cleverpush-topics-example";
+			};
+			name = Debug;
+		};
+		29E5561D25B78B8400A9C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWJDGZUQ72;
+				INFOPLIST_FILE = "cleverpush-topics-exampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverpush.cleverpush-topics-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cleverpush-topics-example.app/cleverpush-topics-example";
+			};
+			name = Release;
+		};
+		29E5561F25B78B8400A9C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWJDGZUQ72;
+				INFOPLIST_FILE = "cleverpush-topics-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverpush.cleverpush-topics-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cleverpush-topics-example";
+			};
+			name = Debug;
+		};
+		29E5562025B78B8400A9C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWJDGZUQ72;
+				INFOPLIST_FILE = "cleverpush-topics-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverpush.cleverpush-topics-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cleverpush-topics-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E555E425B78B8300A9C135 /* Build configuration list for PBXProject "cleverpush-topics-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E5561625B78B8400A9C135 /* Debug */,
+				29E5561725B78B8400A9C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E5561825B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E5561925B78B8400A9C135 /* Debug */,
+				29E5561A25B78B8400A9C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E5561B25B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E5561C25B78B8400A9C135 /* Debug */,
+				29E5561D25B78B8400A9C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E5561E25B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E5561F25B78B8400A9C135 /* Debug */,
+				29E5562025B78B8400A9C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29E555E125B78B8300A9C135 /* Project object */;
+}
