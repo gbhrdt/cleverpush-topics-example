@@ -1,0 +1,6 @@
+framework module Pods_cleverpush_topics_exampleTests {
+  umbrella header "Pods-cleverpush-topics-exampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

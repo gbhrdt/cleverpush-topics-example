@@ -1,0 +1,16 @@
+PODS:
+  - CleverPush (1.3.4)
+
+DEPENDENCIES:
+  - CleverPush
+
+SPEC REPOS:
+  trunk:
+    - CleverPush
+
+SPEC CHECKSUMS:
+  CleverPush: 314b3bbc73b8b2bb0de9541ecb487520a1216072
+
+PODFILE CHECKSUM: a28eb135d3a8d1cda4fe1a083e20a7a14864b5e5
+
+COCOAPODS: 1.10.0

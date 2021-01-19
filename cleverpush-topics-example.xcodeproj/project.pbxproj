@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D7D94E8CB9D238B96BEA658 /* Pods_cleverpush_topics_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C931D0CB668EE0AE94F2D61 /* Pods_cleverpush_topics_example.framework */; };
 		29E555EE25B78B8300A9C135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555ED25B78B8300A9C135 /* AppDelegate.m */; };
 		29E555F125B78B8300A9C135 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555F025B78B8300A9C135 /* SceneDelegate.m */; };
 		29E555F425B78B8300A9C135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555F325B78B8300A9C135 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		29E555FF25B78B8300A9C135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E555FE25B78B8300A9C135 /* main.m */; };
 		29E5560925B78B8400A9C135 /* cleverpush_topics_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5560825B78B8400A9C135 /* cleverpush_topics_exampleTests.m */; };
 		29E5561425B78B8400A9C135 /* cleverpush_topics_exampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5561325B78B8400A9C135 /* cleverpush_topics_exampleUITests.m */; };
+		31D30A832D132BED777EEA03 /* Pods_cleverpush_topics_example_cleverpush_topics_exampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D35C9A37BBFFACA5E65D2C8 /* Pods_cleverpush_topics_example_cleverpush_topics_exampleUITests.framework */; };
+		D9DB63B866D63F6015703030 /* Pods_cleverpush_topics_exampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA132390DD766D530958CE7 /* Pods_cleverpush_topics_exampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048DE89B5085C8D1233EC02C /* Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.release.xcconfig"; path = "Target Support Files/Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests/Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		29E555E925B78B8300A9C135 /* cleverpush-topics-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cleverpush-topics-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E555EC25B78B8300A9C135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29E555ED25B78B8300A9C135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,15 @@
 		29E5560F25B78B8400A9C135 /* cleverpush-topics-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cleverpush-topics-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E5561325B78B8400A9C135 /* cleverpush_topics_exampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cleverpush_topics_exampleUITests.m; sourceTree = "<group>"; };
 		29E5561525B78B8400A9C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E5563A25B78E9A00A9C135 /* cleverpush-topics-example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "cleverpush-topics-example.entitlements"; sourceTree = "<group>"; };
+		55F643848B44A500DDB7ED90 /* Pods-cleverpush-topics-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleverpush-topics-example.debug.xcconfig"; path = "Target Support Files/Pods-cleverpush-topics-example/Pods-cleverpush-topics-example.debug.xcconfig"; sourceTree = "<group>"; };
+		5D35C9A37BBFFACA5E65D2C8 /* Pods_cleverpush_topics_example_cleverpush_topics_exampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cleverpush_topics_example_cleverpush_topics_exampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6333859DBD822173FC7511 /* Pods-cleverpush-topics-exampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleverpush-topics-exampleTests.debug.xcconfig"; path = "Target Support Files/Pods-cleverpush-topics-exampleTests/Pods-cleverpush-topics-exampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C931D0CB668EE0AE94F2D61 /* Pods_cleverpush_topics_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cleverpush_topics_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA132390DD766D530958CE7 /* Pods_cleverpush_topics_exampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cleverpush_topics_exampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6743CEA71E41E400F18B43F /* Pods-cleverpush-topics-exampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleverpush-topics-exampleTests.release.xcconfig"; path = "Target Support Files/Pods-cleverpush-topics-exampleTests/Pods-cleverpush-topics-exampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7757353CD252872FCE8F043 /* Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests/Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF94624390522E821B013E1 /* Pods-cleverpush-topics-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cleverpush-topics-example.release.xcconfig"; path = "Target Support Files/Pods-cleverpush-topics-example/Pods-cleverpush-topics-example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7D94E8CB9D238B96BEA658 /* Pods_cleverpush_topics_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DB63B866D63F6015703030 /* Pods_cleverpush_topics_exampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D30A832D132BED777EEA03 /* Pods_cleverpush_topics_example_cleverpush_topics_exampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +104,8 @@
 				29E5560725B78B8400A9C135 /* cleverpush-topics-exampleTests */,
 				29E5561225B78B8400A9C135 /* cleverpush-topics-exampleUITests */,
 				29E555EA25B78B8300A9C135 /* Products */,
+				60CD083CEC6A629AEC19311B /* Pods */,
+				D97777E4DF3E2152CDDA1EC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +122,7 @@
 		29E555EB25B78B8300A9C135 /* cleverpush-topics-example */ = {
 			isa = PBXGroup;
 			children = (
+				29E5563A25B78E9A00A9C135 /* cleverpush-topics-example.entitlements */,
 				29E555EC25B78B8300A9C135 /* AppDelegate.h */,
 				29E555ED25B78B8300A9C135 /* AppDelegate.m */,
 				29E555EF25B78B8300A9C135 /* SceneDelegate.h */,
@@ -137,6 +156,29 @@
 			path = "cleverpush-topics-exampleUITests";
 			sourceTree = "<group>";
 		};
+		60CD083CEC6A629AEC19311B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55F643848B44A500DDB7ED90 /* Pods-cleverpush-topics-example.debug.xcconfig */,
+				FFF94624390522E821B013E1 /* Pods-cleverpush-topics-example.release.xcconfig */,
+				F7757353CD252872FCE8F043 /* Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.debug.xcconfig */,
+				048DE89B5085C8D1233EC02C /* Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.release.xcconfig */,
+				6B6333859DBD822173FC7511 /* Pods-cleverpush-topics-exampleTests.debug.xcconfig */,
+				C6743CEA71E41E400F18B43F /* Pods-cleverpush-topics-exampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D97777E4DF3E2152CDDA1EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C931D0CB668EE0AE94F2D61 /* Pods_cleverpush_topics_example.framework */,
+				5D35C9A37BBFFACA5E65D2C8 /* Pods_cleverpush_topics_example_cleverpush_topics_exampleUITests.framework */,
+				9DA132390DD766D530958CE7 /* Pods_cleverpush_topics_exampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29E5561825B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-example" */;
 			buildPhases = (
+				97903098DDF59DDA3FE2A13D /* [CP] Check Pods Manifest.lock */,
 				29E555E525B78B8300A9C135 /* Sources */,
 				29E555E625B78B8300A9C135 /* Frameworks */,
 				29E555E725B78B8300A9C135 /* Resources */,
@@ -161,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29E5561B25B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-exampleTests" */;
 			buildPhases = (
+				1ED33D4E3F398E8638CC843A /* [CP] Check Pods Manifest.lock */,
 				29E5560025B78B8400A9C135 /* Sources */,
 				29E5560125B78B8400A9C135 /* Frameworks */,
 				29E5560225B78B8400A9C135 /* Resources */,
@@ -179,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29E5561E25B78B8400A9C135 /* Build configuration list for PBXNativeTarget "cleverpush-topics-exampleUITests" */;
 			buildPhases = (
+				AD7184E939A37AB659F9F367 /* [CP] Check Pods Manifest.lock */,
 				29E5560B25B78B8400A9C135 /* Sources */,
 				29E5560C25B78B8400A9C135 /* Frameworks */,
 				29E5560D25B78B8400A9C135 /* Resources */,
@@ -260,6 +305,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED33D4E3F398E8638CC843A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cleverpush-topics-exampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97903098DDF59DDA3FE2A13D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cleverpush-topics-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7184E939A37AB659F9F367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29E555E525B78B8300A9C135 /* Sources */ = {
@@ -438,9 +552,11 @@
 		};
 		29E5561925B78B8400A9C135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F643848B44A500DDB7ED90 /* Pods-cleverpush-topics-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cleverpush-topics-example/cleverpush-topics-example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KWJDGZUQ72;
 				INFOPLIST_FILE = "cleverpush-topics-example/Info.plist";
@@ -456,9 +572,11 @@
 		};
 		29E5561A25B78B8400A9C135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF94624390522E821B013E1 /* Pods-cleverpush-topics-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cleverpush-topics-example/cleverpush-topics-example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KWJDGZUQ72;
 				INFOPLIST_FILE = "cleverpush-topics-example/Info.plist";
@@ -474,6 +592,7 @@
 		};
 		29E5561C25B78B8400A9C135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6333859DBD822173FC7511 /* Pods-cleverpush-topics-exampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +613,7 @@
 		};
 		29E5561D25B78B8400A9C135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6743CEA71E41E400F18B43F /* Pods-cleverpush-topics-exampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +634,7 @@
 		};
 		29E5561F25B78B8400A9C135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7757353CD252872FCE8F043 /* Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KWJDGZUQ72;
@@ -532,6 +653,7 @@
 		};
 		29E5562025B78B8400A9C135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048DE89B5085C8D1233EC02C /* Pods-cleverpush-topics-example-cleverpush-topics-exampleUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KWJDGZUQ72;
